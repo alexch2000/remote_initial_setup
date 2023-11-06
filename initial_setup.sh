@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # File path
-ZSHRC_PATH="~/.zshrc"
+ZSHRC_PATH="/home/user/.zshrc"
 
 # 1. Add JAVA_HOME
 grep -q "JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64" "$ZSHRC_PATH" || echo 'export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64' >> "$ZSHRC_PATH"
